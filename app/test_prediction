@@ -1,0 +1,9 @@
+from prediction import predict_and_save
+
+
+result = predict_and_save(
+    "I love this product, it works perfectly!"
+)
+
+
+print(result)
