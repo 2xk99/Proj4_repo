@@ -9,7 +9,7 @@ from sqlalchemy import (
 
 from datetime import datetime
 
-from database import metadata
+from app.database import metadata
 
 
 sentiment_predictions = Table(
